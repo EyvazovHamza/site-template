@@ -1,0 +1,981 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* 
+
+list-style: none;
+object-fit: cover;
+
+seklin ölçüləri :
+width: 100%;
+    object-fit: cover;
+    height: 100%;
+///////////////
+
+
+    padding: 0px 15px;
+
+     text-transform: uppercase;
+     background-size: 100%;
+
+     flex box
+*/
+
+/* background-size: 1300px;
+    background-position: center; */
+
+
+
+header {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: rgba(249, 249, 249, 255);
+    position: fixed;
+    z-index: 20;
+}
+
+
+.fa-caret-up {
+    position: fixed;
+    bottom: 30px;
+    z-index: 40;
+    font-size: 50px;
+    background-color: chartreuse;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    right: 30px;
+    cursor: pointer;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav i {
+    font-size: 30px;
+    display: none !important;
+    /* tekrar */
+}
+
+header .left {
+    width: 120px;
+    height: 100px;
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+
+header nav ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main #Poke {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(assets/heftebecer.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+main .textBox {
+    color: white;
+
+}
+
+main .textBox h1 {
+    font-size: 15vw;
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main .textBox h3 {
+
+    font-size: 3vw;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+main .textBox button {
+    background-color: rgba(0, 128, 0, 0.675);
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+main #bowl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 70px 0px;
+    /* m */
+}
+
+main .textBox1 {}
+
+main .textBox1 h4 {
+    font-family: "Arizonia", cursive;
+    font-size: 50px;
+}
+
+main .textBox1 h2 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+main .mini1 img {
+    object-fit: cover;
+    width: 60%;
+
+
+}
+
+main .mini2 img {
+    object-fit: cover;
+    width: 60%;
+
+
+}
+
+main .mini3 img {
+    object-fit: cover;
+    width: 60%;
+
+}
+
+main .mini4 img {
+    object-fit: cover;
+    width: 60%;
+
+}
+
+main .mini1 .lapmini1 img {
+    object-fit: cover;
+    width: 15%;
+    display: inline;
+
+}
+
+main .allMinis {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main .mini2 .lapmini2 img {
+    object-fit: cover;
+    width: 15%;
+    display: inline;
+}
+
+main .mini3 .lapmini3 img {
+    object-fit: cover;
+    width: 15%;
+    display: inline;
+}
+
+main .mini4 .lapmini4 img {
+    object-fit: cover;
+    width: 15%;
+    display: inline;
+}
+
+main .mini1 h5 {
+    font-size: 18px;
+
+
+}
+
+main .mini2 h5 {
+    font-size: 18px;
+
+
+}
+
+main .mini3 h5 {
+    font-size: 18px;
+
+
+}
+
+main .mini4 h5 {
+    font-size: 18px;
+
+
+}
+
+main .mini {
+
+    width: 300px;
+    height: 300px;
+}
+
+
+
+main #healthy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(198, 244, 202, 0.665);
+    padding: 60px 200px;
+    flex-wrap: wrap;
+}
+
+main #healthy .imege img {
+    object-fit: cover;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+main #healthy .imege {
+    height: 350px;
+    width: 350px;
+}
+
+
+main #healthy .text h2 {
+    font-size: 55px;
+
+}
+
+main #healthy .text p {
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 55px;
+    text-align: justify;
+}
+
+main #healthy .text {
+    width: 450px;
+    text-align: center;
+
+}
+
+main #healthy .text button {
+    background-color: green;
+    width: 220px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 55px;
+}
+
+
+
+
+
+
+
+
+
+main #tasty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(243, 197, 99, 0.595);
+    padding: 60px 200px;
+    flex-wrap: wrap;
+}
+
+main #tasty .imege img {
+    object-fit: cover;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+main #tasty .imege {
+    height: 350px;
+    width: 350px;
+}
+
+
+main #tasty .text h2 {
+    font-size: 55px;
+
+}
+
+main #tasty .text p {
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 55px;
+    text-align: justify;
+}
+
+main #tasty .text {
+    width: 450px;
+    text-align: center;
+
+}
+
+main #tasty .text button {
+    background-color: green;
+    width: 220px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 55px;
+}
+
+
+
+
+
+
+
+/* main #tasty .text button {
+    background-color: green;
+    width: 220px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 55px;
+}
+
+main #tasty .text {
+    width: 1550px;
+    margin: 0px 200px;
+}
+
+main #tasty .text p {
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 55px;
+}
+
+
+main #tasty {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(241, 192, 139, 0.685);
+}
+
+
+main #tasty .text h2 {
+    font-size: 55px;
+}
+
+main #tasty .imege img {
+    object-fit: cover;
+    width: 60%;
+    border-radius: 100%;
+} */
+
+
+
+
+main #geydirme {
+    height: 65vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/ebesinin.jpg);
+    background-attachment: fixed;
+    background-position: 50% 0px, 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    /* vertical-align: middle; */
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+main #geydirme .allMiniskas {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    padding: 100px 0px;
+
+}
+
+main #geydirme .allMiniskas img {
+    object-fit: cover;
+    height: 150px;
+    background-color: rgba(20, 216, 20, 0.461);
+    border-radius: 50px;
+
+}
+
+
+main #geydirme .allMiniskas h5 {
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+main #ebe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main #ebe .allPhotos {
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+main #ebe .allPhotos h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main #ebe .allPhotos h5 {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main #ebe .textBox2 {
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+main #ebe .textBox2 h3 {
+    font-size: 45px;
+    font-family: "Arizonia", cursive;
+}
+
+main #ebe .textBox2 h2 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+main #siu {
+    background-color: rgba(67, 236, 151, 0.244);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+main #siu .allBOXES {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+main #siu .allBOXES .box1 {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 40px;
+    gap: 25px;
+    width: 450px;
+
+}
+
+main #siu .allBOXES .box2 {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 40px;
+    gap: 25px;
+    width: 450px;
+}
+
+
+main #siu .allBOXES .box1 .imgBox1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 100%;
+}
+
+main #siu .allBOXES .box2 .imgBox2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 100%;
+
+}
+
+
+main #siu .allBOXES .box1 .imgBox1 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+
+main #siu .allBOXES .box2 .imgBox2 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+main #siu .allBOXES .box1 p {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+main #siu .allBOXES .box1 h5 {
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+main #siu .allBOXES .box2 p {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+main #siu .allBOXES .box2 h5 {
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+main #siu .textbox3 h4 {
+    font-size: 45px;
+    font-family: "Arizonia", cursive;
+}
+
+main #siu .textbox3 h3 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+main #siu .textbox3 {
+    margin-top: 55px;
+}
+
+
+main #siu {
+    gap: 55px;
+}
+
+main #photo {
+    flex-wrap: wrap;
+}
+
+main #photo .butunFotolar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-top: 50px;
+
+}
+
+main #photo .butunFotolar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+main #photo .butunFotolar .foto {
+    height: 450px;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 50px;
+    
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive dizayn */
+
+
+@media (min-width:1600px) {
+    main #healthy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(198, 244, 202, 0.507);
+        padding: 60px 200px;
+        flex-wrap: wrap;
+    }
+
+    main #healthy .imege img {
+        object-fit: cover;
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    main #healthy .imege {
+        height: 550px;
+        width: 550px;
+    }
+
+
+    main #healthy .text h2 {
+        font-size: 55px;
+
+    }
+
+    main #healthy .text p {
+        font-size: 25px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 55px;
+        text-align: justify;
+    }
+
+    main #healthy .text {
+        width: 650px;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+    main #tasty {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(234, 189, 84, 0.507);
+        padding: 60px 200px;
+        flex-wrap: wrap;
+    }
+
+    main #tasty .imege img {
+        object-fit: cover;
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    main #tasty .imege {
+        height: 550px;
+        width: 550px;
+    }
+
+
+    main #tasty .text h2 {
+        font-size: 55px;
+
+    }
+
+    main #tasty .text p {
+        font-size: 25px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 55px;
+        text-align: justify;
+    }
+
+    main #tasty .text {
+        width: 650px;
+        text-align: center;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    header nav ul {
+        position: absolute;
+        /* left: 0; */
+        background-color: rgba(79, 227, 30, 0.679);
+        height: 100vh;
+        top: 0;
+        flex-direction: column;
+        width: 300px;
+        justify-content: space-between;
+        padding: 40px 0;
+        text-align: center;
+        left: -120%;
+        transition: 1s all;
+    }
+
+    header nav i {
+        display: block !important;
+    }
+
+    main #Poke {
+        background-size: 1750px;
+        background-position: center;
+    }
+
+    main .allMinis {
+        justify-content: center;
+    }
+
+    main #healthy {
+        justify-content: center;
+        gap: 25px;
+        padding: 50px 0px;
+    }
+
+    main #tasty {
+        justify-content: center;
+        gap: 25px;
+        padding: 50px 0px;
+    }
+
+
+
+    main #ebe .allPhotos {
+        justify-content: center;
+    }
+
+    main #geydirme .allMiniskas {
+        flex-wrap: wrap;
+        height: fit-content;
+
+    }
+
+
+    main #geydirme {
+        height: fit-content;
+    }
+
+    main #ebe .textBox2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+
+@media (max-width:500px) {
+    main #siu .allBOXES>div {
+        width: fit-content;
+    }
+
+    main #photo .butunFotolar {
+        grid-template-columns: 1fr;
+    }
+
+    main #healthy .text p,
+    main #tasty .text p {
+        padding: 0px 15px;
+    }
+
+}
